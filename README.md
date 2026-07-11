@@ -18,7 +18,6 @@ thermosnooker/
 │   ├── physics.py          # Maxwell-Boltzmann distribution function
 │   └── simulations.py      # Simulation classes (single, multi, Brownian)
 ├── analysis.py             # Runs demos and produces all figures
-├── make_gifs.py            # Exports the animations as GIFs
 ├── Figures/                # Output figures and GIFs
 ├── thermosnooker_LR.pdf    # Full report
 └── README.md
@@ -160,7 +159,6 @@ thermosnooker/
 │   ├── physics.py          # マクスウェル・ボルツマン分布関数
 │   └── simulations.py      # シミュレーションクラス（単一球・多球・ブラウン運動）
 ├── analysis.py             # デモの実行と全図の生成
-├── make_gifs.py            # アニメーションのGIF出力
 ├── Figures/                # 出力図・GIF
 ├── thermosnooker_LR.pdf    # レポート全文
 └── README.md
