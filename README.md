@@ -131,7 +131,6 @@ $$
 \eta = \frac{RT}{6\pi D N_A r}
 $$
 
-The MSD is fit only after an initial burn-in period, since the system needs time to reach thermal equilibrium before the motion becomes cleanly diffusive.
 
 ## Report
 
@@ -270,7 +269,6 @@ $$
 \eta = \frac{RT}{6\pi D N_A r}
 $$
 
-MSDは初期のバーンイン期間の後にのみフィットする。系が熱平衡に達し、運動が明確に拡散的になるまで時間が必要なためである。
 
 ## レポート
 
