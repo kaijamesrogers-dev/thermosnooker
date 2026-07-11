@@ -2,7 +2,7 @@
 
 *[日本語版はこちら](#thermosnooker-日本語版)*
 
-A 2D molecular dynamics simulation of a hard-sphere gas, extended to model Brownian motion and measure fluid viscosity. Built in Python using event-driven collision detection: instead of stepping time forward in fixed increments, the simulation solves for the exact time of the next collision and jumps straight to it.
+A 2D molecular dynamics simulation of a hard-sphere gas, extended to model Brownian motion. Built in Python. (The reason the animation may look glitchy is because the simulation solves for the exact time of the next collision and jumps straight to it, instead of progressing with constant time jumps.)
 
 ![Multi-ball simulation](Figures/multi_ball.gif)
 
@@ -141,7 +141,7 @@ Full method, results, and discussion: [thermosnooker_LR.pdf](thermosnooker_LR.pd
 
 # ThermoSnooker (日本語版)
 
-2次元剛体球気体の分子動力学シミュレーション。ブラウン運動のモデル化と流体粘度の測定まで拡張した。Pythonで実装し、イベント駆動型の衝突検出を採用している。時間を固定幅で進めるのではなく、次の衝突が起こる正確な時刻を解析的に求め、その瞬間まで直接進める方式である。
+2次元剛体球気体の分子動力学シミュレーション。(アニメーションが少しぎこちなく見えるのは、一定の時間間隔で進めるのではなく、次の衝突が起こる正確な時刻を計算し、その瞬間まで一気に進める方式を採用しているためです。）
 
 ![多球シミュレーション](Figures/multi_ball.gif)
 
