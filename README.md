@@ -54,8 +54,6 @@ Open `analysis.py` and set the `RUN` variable at the top of the file to choose a
 python analysis.py
 ```
 
-To regenerate the GIFs, set `RUN` in `make_gifs.py` and run `python make_gifs.py`.
-
 ## Analysis Functions and Figures
 
 ### `single_ball_demo`
@@ -194,8 +192,6 @@ pip install numpy matplotlib scipy pillow
 ```
 python analysis.py
 ```
-
-GIFを再生成するには、`make_gifs.py` の `RUN` を設定して `python make_gifs.py` を実行する。
 
 ## 解析関数と図
 
