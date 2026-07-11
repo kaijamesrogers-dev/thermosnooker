@@ -73,11 +73,11 @@ A visual check that a full gas of balls neither sticks together nor escapes the 
 
 The quantitative version of the check above.
 
-![Pairwise ball distances](Figures/pairwise%20distances.png)
+![Pairwise ball distances](Figures/pairwise_distances.png)
 
 No ball pair is closer than the sum of their radii (2 units), confirming no overlaps.
 
-![Distances from container centre](Figures/distances%20from%20centre.png)
+![Distances from container centre](Figures/distances_from_centre.png)
 
 No ball is further from the centre than the container radius minus the ball radius (9 units), confirming no escapes.
 
