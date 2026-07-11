@@ -42,10 +42,12 @@ Expanding this gives a quadratic in $t$. The smallest positive root is the time 
 git clone https://github.com/kaijamesrogers-dev/thermosnooker.git
 cd thermosnooker
 pip install numpy matplotlib scipy
+
 ```
 
 ## Usage
 
+<<<<<<< HEAD
 Open `analysis.py` and set the `RUN` variable at the top of the file to choose a demo, then:
 
 ```
