@@ -85,20 +85,20 @@ No ball is further from the centre than the container radius minus the ball radi
 
 Plots the ratio of kinetic energy and both momentum components at time $t$ to their initial values. All three ratios stay flat at 1, confirming the collision resolution conserves energy and momentum exactly. Also plots pressure against time, which takes a short while to settle to its equilibrium value.
 
-![Kinetic energy conservation](Figures/ke%20conservation.png)
-![Pressure vs time](Figures/pressure%20vs%20time.png)
+![Kinetic energy conservation](Figures/ke_conservation.png)
+![Pressure vs time](Figures/pressure_vs_time.png)
 
 ### `plot_ideal_gas_comparisons`
 
 Compares the simulated pressure against the ideal gas law prediction while varying temperature, container volume, and particle number in turn.
 
-![Pressure vs number of particles](Figures/pressure%20vs%20n.png)
+![Pressure vs number of particles](Figures/pressure_vs_n.png)
 
 ### `plot_temperature_ratio`
 
 Quantifies where the ideal gas law breaks down. As ball radius increases, the balls take up a larger fraction of the container ("excluded volume") and the gas stops behaving ideally.
 
-![Temperature ratio vs ball radius](Figures/temperature%20ratio.png)
+![Temperature ratio vs ball radius](Figures/temperature_ratio.png)
 
 The ratio of the equipartition temperature to the ideal-gas temperature is close to 1 for small radii but drops systematically as the balls grow.
 
@@ -106,7 +106,7 @@ The ratio of the equipartition temperature to the ideal-gas temperature is close
 
 Runs the gas at three initial speeds and histograms the equilibrium speeds against the theoretical Maxwell–Boltzmann distribution.
 
-![Speed distributions](Figures/speed%20distributions.png)
+![Speed distributions](Figures/speed_distributions.png)
 
 All balls start at the same speed, but collisions redistribute energy until the speeds follow the Maxwell–Boltzmann curve — the simulation reaches thermal equilibrium on its own.
 
@@ -215,11 +215,11 @@ GIFを再生成するには、`make_gifs.py` の `RUN` を設定して `python m
 
 上記の確認を定量化したもの。
 
-![球間距離のヒストグラム](Figures/pairwise%20distances.png)
+![球間距離のヒストグラム](Figures/pairwise_distances.png)
 
 半径の和（2単位）より近い球のペアが存在しないことから、重なりがないことを確認できる。
 
-![容器中心からの距離](Figures/distances%20from%20centre.png)
+![容器中心からの距離](Figures/distances_from_centre.png)
 
 容器半径から球半径を引いた値（9単位）より遠い球が存在しないことから、飛び出しがないことを確認できる。
 
@@ -227,20 +227,20 @@ GIFを再生成するには、`make_gifs.py` の `RUN` を設定して `python m
 
 運動エネルギーと運動量両成分について、時刻 $t$ での値と初期値の比をプロットする。3つの比がすべて1で一定であることから、衝突処理がエネルギーと運動量を厳密に保存していることが分かる。圧力の時間変化もプロットしており、平衡値に落ち着くまで少し時間がかかる様子が見える。
 
-![運動エネルギー保存](Figures/ke%20conservation.png)
-![圧力の時間変化](Figures/pressure%20vs%20time.png)
+![運動エネルギー保存](Figures/ke_conservation.png)
+![圧力の時間変化](Figures/pressure_vs_time.png)
 
 ### `plot_ideal_gas_comparisons`
 
 温度・容器体積・粒子数をそれぞれ変化させ、シミュレーションの圧力を理想気体の予測と比較する。
 
-![粒子数に対する圧力](Figures/pressure%20vs%20n.png)
+![粒子数に対する圧力](Figures/pressure_vs_n.png)
 
 ### `plot_temperature_ratio`
 
 理想気体の状態方程式が破綻する条件を定量化する。球の半径が大きくなると、球が容器に占める割合（排除体積）が増え、気体は理想的な振る舞いから外れていく。
 
-![球半径に対する温度比](Figures/temperature%20ratio.png)
+![球半径に対する温度比](Figures/temperature_ratio.png)
 
 エネルギー等分配則から求めた温度と理想気体から求めた温度の比は、小さい半径では1に近いが、半径が大きくなるにつれて系統的に低下する。
 
@@ -248,7 +248,7 @@ GIFを再生成するには、`make_gifs.py` の `RUN` を設定して `python m
 
 3つの初期速度で気体を走らせ、平衡状態での速度ヒストグラムを理論的なマクスウェル・ボルツマン分布と比較する。
 
-![速度分布](Figures/speed%20distributions.png)
+![速度分布](Figures/speed_distributions.png)
 
 全球が同じ速さで始まるが、衝突によってエネルギーが再分配され、速度分布はマクスウェル・ボルツマン曲線に従うようになる。シミュレーションが自発的に熱平衡へ到達することを示している。
 
